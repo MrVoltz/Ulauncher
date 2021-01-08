@@ -16,4 +16,4 @@ class OpenAction(BaseAction):
         return False
 
     def run(self):
-        subprocess.Popen(['xdg-open', self.path])
+        subprocess.Popen(['autodpi', 'xdg-open', self.path])
